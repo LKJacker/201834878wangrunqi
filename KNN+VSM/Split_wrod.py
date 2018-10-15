@@ -1,3 +1,3 @@
 from textblob import  TextBlob
 
-sssssss
+if __name__ == '__main__':
