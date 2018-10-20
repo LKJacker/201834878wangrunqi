@@ -7,11 +7,18 @@ def word_deal(wordlist):
         #变成单数
         word =word.singularize()
         #修正 拼写
-        word = word.correct()
+        # word = word.correct()
         #词形还原
         word =Word(word).lemmatize()
         word =Word(word).lemmatize("v")
-
+        word =word.lower()
+        flag = False
+        for cha in word:
+            if not ((cha >= 'a' and cha <= 'z') or cha == '-'):
+                flag = True
+                break
+        if flag:
+            continue
         words_dealed.append(word)
     return words_dealed
         #
@@ -26,7 +33,16 @@ def get_data(Datapath):
                     #分词
                     word_list.extend(textblob.words)
             # 处理得到的wordlist
-            word_deal(word_list)
+            words = word_deal(word_list)
+            filename = "word_file/"+dir
+            if not os.path.exists(filename):
+                os.makedirs(filename)
+            with open(filename+"/"+dir_name ,'w',encoding='utf-8', errors='ignore') as f:
+                for word in words:
+                    f.write(word+" ")
+            f.close()
+            print(filename+" have done")
+
 
 
 def main():
