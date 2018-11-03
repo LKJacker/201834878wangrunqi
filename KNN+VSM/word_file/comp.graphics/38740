@@ -1,0 +1,1 @@
+from bori pruessmann subject re vga-scrolling hi if you want to have soft-scrolling on ymy vga you have to change some intern register of the crtc but it be a little bite difficult to explain so i would suggest you take a look at the programming of the by addison-wesley you will find all useful description for every available vga-register bori bori pruessmann 
