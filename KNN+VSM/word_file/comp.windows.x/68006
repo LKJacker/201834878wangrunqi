@@ -1,0 +1,1 @@
+from lei shao subject error build xdm hi there i try to build mit core distribution on a sparcstation run suno the only thing i change be the projectroot in when the make world proces go to cc o xdm i get the follow error ld undefined symbol error code and the proces continue to finish do anybody know what wrong thanx for any info lei shao 

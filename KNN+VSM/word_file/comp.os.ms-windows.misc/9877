@@ -1,0 +1,1 @@
+from mlin ming t lin subject word byte i just move from borland c to visual c today when i try to compile my c program it complain a function prototype problem it turn out that the typedef word in m c be a byte not unsigned int could anyone shine some light on thi subject why a word be a byte ming t lin mlin 
