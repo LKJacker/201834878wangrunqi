@@ -1,0 +1,1 @@
+from ros anderson subject re hardware hash function in article basturk erol basturk write so the question be ha a fast hash function be design for hardware implementation ye you can use a stream cipher chip to hash datum with only slight modification see a fast cryptographic checksum algorithm base on stream cipher x lai ra rueppel j woolven auscrypt pp to ros 

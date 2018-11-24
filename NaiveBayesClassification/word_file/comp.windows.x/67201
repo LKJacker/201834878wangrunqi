@@ -1,0 +1,1 @@
+from reznik dan s reznik subject correction on my last post glx lack of cou on dialog widget on the code i send please replace the line xtaddcallback popupshell xtncallback mypopup xtpointer popupshell by xtaddcallback button xtncallback mypopup xtpointer popupshell the rest and my question remain the same dan 
