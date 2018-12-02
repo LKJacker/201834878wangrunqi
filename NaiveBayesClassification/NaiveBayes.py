@@ -118,9 +118,10 @@ def NB():
         if nlabel==label:
             current+=1
         print("one have done %d true"%current)
-    Acc = float(current/3766.0)
+    Acc= current/3766.0
     print(current)
-    print("acc:%d"%Acc)
+    print(Acc)
+    print("acc:%f"%Acc)
 
 
 def change():
@@ -140,6 +141,8 @@ def main():
     # countCnum()
     # change()
     NB()
+    # print(2932/3766.0)
+    # print(float(2932/3766.0) )
 if __name__ == '__main__':
     #p(c|x)= p(x|c1)p(c1)/p(x|c1)p(c1)+p(x|c2)p(c2)
     main()
